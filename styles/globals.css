@@ -10,7 +10,19 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.app {
+  min-height: 100vh;
+  min-width: 400px;
+}
 
 * {
   box-sizing: border-box;
+}
+
+@media (max-width: 550px) {
+  
+}
+
+@media (min-width: 550px) {
+  
 }

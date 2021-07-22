@@ -1,0 +1,44 @@
+.footer {
+    width: 100%;
+    height: 150px;
+    /* position: absolute;
+    bottom: 40px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.footer footer {
+    width: 100%;
+    max-width: 1200px;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.by {
+    display: flex;
+    align-items: center;
+}
+.by p {
+    margin-left: 10px;
+}
+.media {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+}
+.media p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.mediaList svg{
+    transition: color 0.3s ease-in-out 0s;
+}
+.mediaList svg:hover {
+    color: gray;
+}
+
+/* logo-photoshop 1 */
+
