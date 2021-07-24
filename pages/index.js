@@ -18,8 +18,15 @@ export default function Home() {
           <div className={styles.heroText}>
             <h3>Produk Besek Ikan Buatan Warga Desa Kalinanas</h3>
           </div>
-          <div>
-            <Image src='/hero-section.png' width={583} height={303} />
+          <div className={styles.heroImg}>
+            {/* <Image src='/hero-section.png' width={583} height={303} /> */}
+            <Image 
+              src='/hero-section.png' 
+              alt=''
+              width={1167}
+              height={606}
+              layout='responsive' 
+            />
           </div>
         </section>
         <section className="product">
