@@ -11,7 +11,8 @@ function Footer() {
 
                     <Image src={logoKKN} width={60} height={70} />
                     <div>
-                        <p>KKN-PPM UGM 2021-JT032<br/>
+                        <p>Created with love by
+                        <br/>KKN-PPM UGM 2021-JT032<br/>
                         Wonosamodro, Boyolali</p>
                     </div>
                 </div>
