@@ -31,10 +31,12 @@
 }
 .media p {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
+    margin-left: 3px;
 }
 .mediaList svg{
     transition: color 0.3s ease-in-out 0s;
+    margin: 3px;
 }
 .mediaList svg:hover {
     color: gray;

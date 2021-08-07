@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import logoKKN from '../public/logo-photoshop.png';
 import styles from './Footer.module.css';
-import { FaInstagram } from 'react-icons/fa';
+import { FaInstagram, FaYoutube } from 'react-icons/fa';
 
 function Footer() {
     return (
@@ -21,6 +21,9 @@ function Footer() {
                     <div className={styles.mediaList}>
                         <a href='https://www.instagram.com/kknwonosamodro2021/' rel='noopener noreferer' target='_blank'>
                             <FaInstagram size={30}/>
+                        </a>
+                        <a href='#'>
+                            <FaYoutube size={30} />
                         </a>
                     </div>
                 </div>
